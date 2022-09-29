@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florida University</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/2200adcecc.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+  <!--HEADER-->
+
+  <section class="header">
+    <nav>
+      <!--LOGO-->
+      <div class="florida-logo">
+        <a href="index.html">
+          <i class="fa-solid fa-graduation-cap fa-4x"></i>
+          <p>Florida<span class="white-logo">Education</span></p>
+        </a>
+      </div>
+      <!--NAV LINKS-->
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" id="menu-icon" onclick="showMenu()"></i>
+    </nav>
+    <!--Text for header-->
+    <div class="text-box">
+      <h1>FLorida's Best University</h1>
+      <p>Welcome to Florida University! You will find all the information you 
+        <br> need about our courses and campuses on this site. Thanks for visiting!</p>
+      <a href="#course" class="hero-btn">Explore to Know More</a>
+    </div>
+  </section>
+
+  <!--COURSE-->
+
+  <section id="course" class="course">
+    <h1>Our Courses</h1>
+    <p>Here are world class courses we offer at our various campuses.</p>
+    
+    <div class="row">
+      <div class="course-col">
+        <h2>Undergraduate</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+      </div>
+      <div class="course-col">
+        <h2>Graduate</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+      </div>
+      <div class="course-col">
+        <h2>Doctoral</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--CAMPUS-->
+
+  <section class="campus">
+    <h1>Our Campuses</h1>
+    <p>Come visit our three campuses in Florida.</p>
+
+    <div class="row">
+      <div class="campus-col">
+        <img src="images/jacksonville.jpg" alt="jacksonville, fl">
+        <div class="layer">
+          <h3>JACKSONVILLE</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="images/orlando.jpg" alt="orlando, fl">
+        <div class="layer">
+          <h3>ORLANDO</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="images/tampa.jpg" alt="tampa, fl">
+        <div class="layer">
+          <h3>TAMPA</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FACILITIES-->
+
+  <section class="facilities">
+    <div class="fac-main">
+      <h1>Our Facilities</h1>
+      <p>Our world class facilities are designed to grow your educational experience to the top.</p>
+    </div>
+
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/library.jpg" alt="library">
+        <h2>World Class Library</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/gym.jpg" alt="gym">
+        <h2>High-Level Gym</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/cafeteria.jpg" alt="cafeteria">
+        <h2>Healthy Cafeteria</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--TESTIMONIALS-->
+
+  <section class="testimonials">
+    <div class="test-main">
+      <h1>What Our Students Say</h1>
+      <p>Here are some of our student testimonies about their experience with Florida University.</p>
+    </div>
+    
+    <div class="row">
+      <div class="testimonial-col">
+        <img src="images/girl.jpg" alt="rebecca">
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Molestiae, ipsa! Cumque, non nostrum accusamus quas consequuntur 
+            aspernatur ad officia nisi consequatur reprehenderit pariatur.</p>
+            <h3>Rebecca Smith</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+      <div class="testimonial-col">
+        <img src="images/man.jpg" alt="gordon">
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Molestiae, ipsa! Cumque, non nostrum accusamus quas consequuntur 
+            aspernatur ad officia nisi consequatur reprehenderit pariatur.</p>
+            <h3>Gordon Bushley</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--CALL TO ACTION-->
+
+  <section class="cta">
+    <h1>Enroll For Our Various Online Courses <br>From Anywhere In the World</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+  </section>
+
+  <!--FOOTER-->
+
+  <section class="footer">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Molestiae, ipsa!<br> Cumque, non nostrum accusamus quas consequuntur 
+      aspernatur ad officia nisi consequatur reprehenderit pariatur.</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/UCF/">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com/UCF?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/ucf.edu/?hl=en">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/school/university-of-central-florida/">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+    <p>Made by Tim Loveland with help from Easy Tutorials.</p>
+  </section>
+
+  <!--JavaScript for Phone Menu-->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+</body>
+</html>
